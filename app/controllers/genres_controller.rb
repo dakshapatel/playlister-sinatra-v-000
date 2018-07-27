@@ -7,5 +7,5 @@ class GenresController < ApplicationController
    binding.pry
  end
 
- 
+
 end
