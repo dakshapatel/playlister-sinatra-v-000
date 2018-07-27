@@ -5,7 +5,7 @@ class GenresController < ApplicationController
    binding.pry
    @genres = Genres.all
    erb :'genres/index'
-   
+
  end
 
 
