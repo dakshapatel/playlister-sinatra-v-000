@@ -3,7 +3,7 @@ class GenresController < ApplicationController
 
  get '/genres' do
    binding.pry
-   @genres = Genres.all
+   @genres = Genre.all
    erb :'genres/index'
 
  end
